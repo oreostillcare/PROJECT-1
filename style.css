@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+
+
+body{
+ background-color: #3AAFA9;
+}
+
+
+.navigation_links{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-color: #2b7a78 ;
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Poppins", sans-serif;
+  margin-top: 25px;
+
+}
+
+li {
+float: right;
+justify-content: flex-start;
+font-family: "Poppins", sans-serif;
+
+}
+
+li a{
+  display: block;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;  
+  color: #DEF2F1;
+
+}
+
+.home{
+  margin-right: auto;
+}
+
+.text1 , .text2 , .text3{
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  color: #DEF2F1;
+  
+
+}
+
+.profilepicture{
+  
+  width: 325px;
+  height: 325px;
+  border-radius: 50%;
+  object-fit: cover;
+  
+
+}
+
+
+.linkedinlogo , .githublogo{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.aboutme{
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: right;
+}
+
+.aboutmetext{
+  margin-top: -2rem ;
+  padding: 0 20px;
+}
+
+.text1{
+  font-size: 40px;
+  font-weight: 500;
+  padding: 0 5px;
+  margin-bottom: 0.5rem;
+  align-items: center;
+
+}
+
+.text2 {
+  font-size: 25px;
+  padding: 20px;
+  margin-bottom: 0.5rem;
+}
+
+.text3{
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+  padding: 20px;
+}
