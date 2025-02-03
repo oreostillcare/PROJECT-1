@@ -5,7 +5,7 @@
 
 
 body{
- background-color: #3AAFA9;
+ background-color: ecf0f3;
 }
 
 
@@ -14,7 +14,7 @@ body{
   margin: 0;
   padding: 0;
   overflow: hidden;
-  border-color: #2b7a78 ;
+  border-color:black;
   display: flex;
   justify-content: flex-end;
   font-family: "Poppins", sans-serif;
@@ -34,7 +34,7 @@ li a{
   text-align: center;
   padding: 8px;
   text-decoration: none;  
-  color: #DEF2F1;
+  color: #000000;
 
 }
 
@@ -45,7 +45,7 @@ li a{
 .text1 , .text2 , .text3{
   font-family: "Poppins", sans-serif;
   display: flex;
-  color: #DEF2F1;
+  color:black
   
 
 }
@@ -88,5 +88,12 @@ li a{
 }
 
 .text3{
-  font-size: 20px;
+  font-size: 25px;
+}
+
+.htmllogo{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  padding-left: 10;
 }
