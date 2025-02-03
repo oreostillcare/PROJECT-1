@@ -8,7 +8,7 @@ body{
  background-color: ecf0f3;
 }
 
-
+/*  homepage */
 .navigation_links{
   list-style-type: none;
   margin: 0;
@@ -44,10 +44,10 @@ li a{
 
 .text1 , .text2 , .text3{
   font-family: "Poppins", sans-serif;
-  display: flex;
-  color:black
-  
-
+  display: block;
+  color:black;
+  padding: 0;
+  text-align: center;
 }
 
 .profilepicture{
@@ -80,7 +80,6 @@ li a{
 
 .text1{
   font-size: 40px;
-  font-weight: 500;
 }
 
 .text2 {
@@ -90,10 +89,75 @@ li a{
 .text3{
   font-size: 25px;
 }
+/* About Me*/
 
-.htmllogo{
+.aboutme{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+.aboutmetext1, .aboutmetext2{
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  display: block;
+  text-align: center;
+}
+.aboutmebox{
+  width: 50%;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.aboutmeboxtext{
+  font-family: "Poppins", sans-serif;;
+  font-size: 15px;
+  text-align: center;
+}
+
+/* SKILLS */
+.skills{
+ display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5rem;
+  
+}
+
+.skillheader{
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.htmllogo , .javascriptlogo , .csslogo ,.pythonlogo{
   width: 50px;
   height: 50px;
   cursor: pointer;
   padding-left: 10;
 }
+
+.htmltab, .javascripttab, .csstab, .pythontab{
+  display: flex;
+  width: 75%;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 5px;
+
+}
+
+.htmltext , .javascripttext , .csstext , .pythontext{
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  display: inline-block;
+  
+}
+
