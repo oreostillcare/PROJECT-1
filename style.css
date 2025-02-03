@@ -38,7 +38,7 @@ li a{
 
 }
 
-.home{
+.mainhome{
   margin-right: auto;
 }
 
@@ -65,9 +65,11 @@ li a{
   width: 40px;
   height: 40px;
   cursor: pointer;
+  padding-left: 10;
+
 }
 
-.aboutme{
+.homepage{
   margin-top: 5rem;
   display: flex;
   flex-direction: column;
@@ -75,28 +77,16 @@ li a{
   text-align: right;
 }
 
-.aboutmetext{
-  margin-top: -2rem ;
-  padding: 0 20px;
-}
 
 .text1{
   font-size: 40px;
   font-weight: 500;
-  padding: 0 5px;
-  margin-bottom: 0.5rem;
-  align-items: center;
-
 }
 
 .text2 {
   font-size: 25px;
-  padding: 20px;
-  margin-bottom: 0.5rem;
 }
 
 .text3{
   font-size: 20px;
-  margin-bottom: 0.5rem;
-  padding: 20px;
 }
