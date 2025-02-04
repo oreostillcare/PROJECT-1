@@ -140,6 +140,7 @@ li a{
   height: 50px;
   cursor: pointer;
   padding-left: 10;
+  margin-left: 5px;
 }
 
 .htmltab, .javascripttab, .csstab, .pythontab{
@@ -159,6 +160,7 @@ li a{
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   display: inline-block;
+  margin-left: 12px;
   
 }
 
