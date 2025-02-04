@@ -44,10 +44,11 @@ li a{
 
 .text1 , .text2 , .text3{
   font-family: "Poppins", sans-serif;
-  display: block;
   color:black;
   padding: 0;
   text-align: center;
+  margin: 0;
+  line-height: 1.9;
 }
 
 .profilepicture{
@@ -66,6 +67,13 @@ li a{
   height: 40px;
   cursor: pointer;
   margin: 0 2px;
+  
+}
+
+.linkedinlogo:hover , .githublogo:hover{
+  transform: scale(1.15);
+  transition: 0.3s ease;
+  margin: 0 10;
 }
 
 .homepage{
@@ -78,7 +86,8 @@ li a{
 
 
 .text1{
-  font-size: 25px;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .text2 {
@@ -86,7 +95,7 @@ li a{
 }
 
 .text3{
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* About Me*/
@@ -120,6 +129,13 @@ li a{
   border-radius: 10px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.aboutmebox:hover{
+  transform: scale(1.01);
+  transition: 0.3s ease;
+  margin: 0 10px;
 }
 .aboutmeboxtext{
   font-family: "Poppins", sans-serif;;
@@ -149,7 +165,7 @@ li a{
   font-size: 20px;
   font-weight: 400;
   text-align: center;
-
+margin-bottom: 5px;
 }
 
 .htmllogo , .javascriptlogo , .csslogo ,.pythonlogo{
@@ -159,6 +175,7 @@ li a{
   padding-left: 10;
   margin-left: 5px;
 }
+
 
 .htmltab, .javascripttab, .csstab, .pythontab{
   display: flex;
@@ -170,9 +187,15 @@ li a{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   margin: 0 5px;
   cursor: pointer;
+  transition: transform 0.3s ease;
 
 }
+.htmltab:hover, .javascripttab:hover, .csstab:hover, .pythontab:hover{
+transform: scale(1.1); 
+transition: 0.3s ease;
 
+margin: 0 15px;
+}
 .htmltext , .javascripttext , .csstext , .pythontext{
   font-family: "Poppins", sans-serif;
   font-size: 15px;
@@ -232,19 +255,35 @@ li a{
   background-color: white;
 }
 
-.visitprojectbutton1, .visitprojectbutton2, .visitprojectbutton3,
-.githubbutton{
- margin-top: 5px;
- padding: 5px;
-border: 1px solid black;
-border-radius: 5px;
- cursor: pointer;
+.visitprojectbutton1, 
+.visitprojectbutton2, 
+.visitprojectbutton3, 
+.githubbutton {
+  margin-top: 5px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white; 
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
 }
+
 .visitprojectbutton1:hover, 
 .visitprojectbutton2:hover, 
 .visitprojectbutton3:hover, 
 .githubbutton:hover {
-  background-color: #000000;
-  transform: scale(1.1); /* Increases size by 10% */
-  transition: transform 0.3s ease, background-color 0.3s ease; 
+  background-color: white; 
+  color: black; 
+  transform: scale(1.1); 
+}
+
+
+.projectbox1:hover, .projectbox2:hover, .projectbox3:hover{
+  transform: scale(1.05);
+  transition: 0.4s ease;
+  margin: 0 10px;
 }
