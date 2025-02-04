@@ -148,7 +148,10 @@ li a{
  display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 4rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  
   
 }
 
@@ -179,7 +182,7 @@ margin-bottom: 5px;
 
 .htmltab, .javascripttab, .csstab, .pythontab{
   display: flex;
-  width: 75%;
+  width: 100%;
   padding: 10px;
   border: 1px solid black;
   border-radius: 10px;
@@ -193,8 +196,7 @@ margin-bottom: 5px;
 .htmltab:hover, .javascripttab:hover, .csstab:hover, .pythontab:hover{
 transform: scale(1.1); 
 transition: 0.3s ease;
-
-margin: 0 15px;
+margin: 0 30px;
 }
 .htmltext , .javascripttext , .csstext , .pythontext{
   font-family: "Poppins", sans-serif;
@@ -209,6 +211,8 @@ margin: 0 15px;
 .projectpage{
   text-align: center;
   margin-top: 5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 .projects{
   display: flex;
@@ -234,6 +238,12 @@ margin: 0 15px;
   font-size: 18px;
   text-align: center;
 }
+.project1,.project2, .project3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
 .projectbox1 , .projectbox2 , .projectbox3{
   width: 25%;
   padding: 20px;
@@ -244,6 +254,11 @@ margin: 0 15px;
   margin: 0 8px ;
   margin-top: 2rem;
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  
+
 }
 .project1image, .project2image, .project3image{
   width: 100%;
@@ -255,10 +270,18 @@ margin: 0 15px;
   background-color: white;
 }
 
+.buttons{
+  display: flex;
+gap: 10px;
+  justify-content: center;
+
+}
+
 .visitprojectbutton1, 
 .visitprojectbutton2, 
 .visitprojectbutton3, 
 .githubbutton {
+  width: 75px;
   margin-top: 5px;
   padding: 5px;
   border: 1px solid black;
@@ -286,5 +309,5 @@ margin: 0 15px;
   transform: scale(1.05);
   transition: 0.4s ease;
   margin: 0 10px;
-  
+
 }

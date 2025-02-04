@@ -8,7 +8,7 @@ var github_button_3 = document.querySelector("#github_button_3");
 
 
 visit_button_1.onclick = function() {
-    window.open('https://');
+    window.open('https://pornhub.com');
 }
 
 visit_button_2.onclick = function() {
