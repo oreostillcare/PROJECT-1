@@ -97,13 +97,22 @@ li a{
   align-items: center;
   margin-top: 5rem;
 }
-.aboutmetext1, .aboutmetext2{
+.aboutmetext1{
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: 400;
   display: block;
   text-align: center;
 }
+
+.aboutmetext2{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  display: block;
+  text-align: center;
+}
+
 .aboutmebox{
   width: 50%;
   padding: 20px;
@@ -127,12 +136,20 @@ li a{
   
 }
 
-.skillheader{
+.skillheader1{
   font-family: "Poppins", sans-serif;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
-  margin-top: 70px;
+
+}
+
+.skillheader2{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+
 }
 
 .htmllogo , .javascriptlogo , .csslogo ,.pythonlogo{
@@ -165,3 +182,69 @@ li a{
 }
 
 /* Projects*/
+
+.projectpage{
+  text-align: center;
+  margin-top: 5rem;
+}
+.projects{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.projectheader1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+ 
+}
+.projectheader2{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.projecttext{
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+.projectbox1 , .projectbox2 , .projectbox3{
+  width: 25%;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  margin: 0 8px ;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.project1image, .project2image, .project3image{
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.visitprojectbutton1, .visitprojectbutton2, .visitprojectbutton3,
+.githubbutton{
+ margin-top: 5px;
+ padding: 5px;
+border: 1px solid black;
+border-radius: 5px;
+ cursor: pointer;
+}
+.visitprojectbutton1:hover, 
+.visitprojectbutton2:hover, 
+.visitprojectbutton3:hover, 
+.githubbutton:hover {
+  background-color: #000000;
+  transform: scale(1.1); /* Increases size by 10% */
+  transition: transform 0.3s ease, background-color 0.3s ease; 
+}
