@@ -12,19 +12,15 @@
         
         <div>
             <ul id="navigation_links" class="navigation_links">
-             <li class="mainhome"> <a href="#home">Josh Dev</a></li>
-                <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-
-
+             <li class="mainhome" onclick="toggleMenu()" > <a href="#home">Josh Dev</a></li>
+                <li><a href="#aboutme" onclick="toggleMenu()" >About Me</a></li>
+                <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact"  onclick="toggleMenu()">Contact</a></li>
             </ul>
 
         </div>
-    </div>
-    </nav>
-<div class="homepage">
+<div class="homepage" id="home">
     
     <img src="assets/profile.png" class="profilepicture" alt="profilepicture">
     <div class="hometext">
@@ -47,8 +43,11 @@
     </div>
 
 </div>     
+</nav>
 
-<div class="aboutmepage">
+
+<nav>
+<div class="aboutmepage" id="aboutme">
 
     <div class="aboutme">
 
@@ -67,7 +66,10 @@
             Below, you'll find my skills, experience, and certifications from the past few years.</p>
        </div>
     </div>
-<div class="skillspage">
+</nav>
+
+<nav>
+<div class="skillspage" id="skills">
     <div>
         <h1 class="skillheader1"> Skills</h1>
         <h2 class="skillheader2"> Explore My Skills</h2>
@@ -93,10 +95,9 @@
 
 </div>
 
+</nav>
 
-
-
-<div class="projectpage">
+<div class="projectpage" id="projects">
         <div class="projectheader">
             <h1 class="projectheader1">Projects</h1>
             <h2 class="projectheader2">Check out my latest projects</h2>

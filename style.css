@@ -19,6 +19,8 @@ body{
   justify-content: flex-end;
   font-family: "Poppins", sans-serif;
   margin-top: 25px;
+  animation: fadeInDrop 1s ease forwards;
+
 
 }
 
@@ -97,6 +99,7 @@ li a{
 .text3{
   font-size: 20px;
 }
+
 
 /* About Me*/
 
