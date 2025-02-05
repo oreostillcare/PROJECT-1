@@ -1,12 +1,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-
-
-
-body{
- background-color: ecf0f3;
+@keyframes fadeInDrop {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
 
 /*  homepage */
 .navigation_links{
@@ -20,6 +25,7 @@ body{
   font-family: "Poppins", sans-serif;
   margin-top: 25px;
   animation: fadeInDrop 1s ease forwards;
+  animation-delay: 0.5s;
 
 
 }
@@ -59,6 +65,7 @@ li a{
   height: 325px;
   border-radius: 50%;
   object-fit: cover;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   
 
 }
