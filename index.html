@@ -9,17 +9,24 @@
 <body>
 <div class="navigation" id="home">
     <nav>
-        
-        <div>
-            <ul id="navigation_links" class="navigation_links">
-             <li class="mainhome" onclick="toggleMenu()" > <a href="#home">Josh Dev</a></li>
-                <li><a href="#aboutme" onclick="toggleMenu()" >About Me</a></li>
+      
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navigation_links" class="navigation_links menu-links">
+                <li class="mainhome" onclick="toggleMenu()"><a href="#home">Josh Dev</a></li>
+                <li><a href="#aboutme" onclick="toggleMenu()">About Me</a></li>
                 <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact"  onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
             </ul>
-
         </div>
+    </nav>
+    
+        
 <div class="homepage" >
     
     <img src="assets/profile.png" class="profilepicture" alt="profilepicture">
@@ -143,13 +150,26 @@
 <nav>
     <div id="contact" class="contactpage">
         <div class="contactpageheader" >
-            <h1 class="contactheader1">Contact</h1>
+            <h1 class="contactheader1">Contacts</h1>
             <h2 class="contactheader2">Get in Touch</h2>
         </div>
-
+       
+        <div class="contactinfobox">
+            <div class="contactinfo">
+                <img src="assets/email.png" class="emaillogo">
+               <p class="contacttext"><a href="mailto:joshandriemaralit@gmail.com">Email</a></p>
+                <img src="assets/linkedinlogo.png" class="linkedin">
+               <p class="contacttext"><a href="https://www.linkedin.com/in/josh-andrie-maralit-70b2b72b7/">LinkedIn</a></p>
+            </div>
+        </div>
     </div>
-
 </nav>
+
+<div class="footer">
+    <p class="footertext">© 2025 Josh Dev. All rights reserved.</p>
+</div>
+
+
 </div>
 
 
