@@ -289,6 +289,7 @@ margin: 0 30px;
 
 }
 .projectbox1 , .projectbox2 , .projectbox3{
+  position: relative;
   width: 25%;
   padding: 20px;
   border: 1px solid black;
@@ -307,8 +308,6 @@ margin: 0 30px;
 .projectbox1:hover, .projectbox2:hover, .projectbox3:hover {
   transform: scale(1.05);
 }
-
-
 .overlay {
   font-family: "Poppins", sans-serif;
   position: absolute;
@@ -331,6 +330,8 @@ margin: 0 30px;
   color: white;
   margin: 10px;
 }
+
+
 
 .projectbox1:hover .overlay, 
 .projectbox2:hover .overlay, 
