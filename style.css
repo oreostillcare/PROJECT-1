@@ -26,7 +26,7 @@ html{
   justify-content: flex-end;
   font-family: "Poppins", sans-serif;
   margin-top: 25px;
-  animation: fadeInDrop 1s ease forwards;
+ 
   animation-delay: 0.5s;
   margin-left: 15rem;
   margin-right: 15rem;
@@ -37,9 +37,9 @@ html{
 .navigation_links li a:hover{
   color:gray;
 text-decoration: underline;
-transform: scale(1.1);
-transition: 0.5s ease forward;
-text-underline-offset: 13px;
+text-decoration-color:gray ;
+transition: 0.2s ease-in-out;
+text-underline-offset: 12px;
 scroll-behavior: smooth;
 }
 
@@ -96,8 +96,8 @@ li a{
 
 .linkedinlogo:hover , .githublogo:hover{
   transform: scale(1.15);
-  transition: 0.3s ease;
-  margin: 0 10;
+  transition: 0.3s ease-in-out;
+
 }
 
 .homepage{
@@ -156,6 +156,7 @@ li a{
 
 .aboutmebox{
   width: 50%;
+
   padding: 20px;
   border: 1px solid black;
   border-radius: 10px;
@@ -208,7 +209,7 @@ li a{
   text-align: center;
 }
 
-.htmllogo , .javascriptlogo , .csslogo ,.pythonlogo{
+.htmllogo , .javascriptlogo , .csslogo ,.pythonlogo , .clogo{
   width: 50px;
   height: 50px;
   cursor: pointer;
@@ -217,26 +218,26 @@ li a{
 }
 
 
-.htmltab, .javascripttab, .csstab, .pythontab{
+.htmltab, .javascripttab, .csstab, .pythontab , .ctab{
   display: flex;
   width: 100%;
   padding: 10px;
   border: 1px solid black;
   border-radius: 10px;
   background-color: white;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
   margin: 0 5px;
   cursor: pointer;
   transition: transform 0.3s ease;
 
 
 }
-.htmltab:hover, .javascripttab:hover, .csstab:hover, .pythontab:hover{
+.htmltab:hover, .javascripttab:hover, .csstab:hover, .pythontab:hover , .ctab:hover{
 transform: scale(1.1); 
 transition: 0.3s ease;
 margin: 0 30px;
 }
-.htmltext , .javascripttext , .csstext , .pythontext{
+.htmltext , .javascripttext , .csstext , .pythontext, .ctext{
   font-family: "Poppins", sans-serif;
   font-size: 15px;
   display: inline-block;
@@ -252,12 +253,13 @@ margin: 0 30px;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   border: 0;
-  padding-top: 10rem;
+  padding-top: 6rem;
 }
 .projects{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
 }
 .projectheader1 {
   font-family: "Poppins", sans-serif;
@@ -284,12 +286,13 @@ margin: 0 30px;
   flex-direction: column;
   align-items: center;
   margin: 0 10px;
+
 }
 .projectbox1 , .projectbox2 , .projectbox3{
   width: 25%;
   padding: 20px;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 25px;
   background-color: white;
   overflow: hidden;
   margin: 0 8px ;
@@ -298,23 +301,61 @@ margin: 0 30px;
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  
+  transition: transform 0.3s ease-in-out;
 
+}
+.projectbox1:hover, .projectbox2:hover, .projectbox3:hover {
+  transform: scale(1.05);
+}
+
+
+.overlay {
+  font-family: "Poppins", sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:rgba(128, 128, 128, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  border-radius: 25px;
+  transition: opacity 0.3s ease-in-out;
+  text-align: center;
+}
+
+.overlay h3, .overlay p {
+  color: white;
+  margin: 10px;
+}
+
+.projectbox1:hover .overlay, 
+.projectbox2:hover .overlay, 
+.projectbox3:hover .overlay {
+  opacity: 1;
 }
 .project1image, .project2image, .project3image{
   width: 100%;
   height: auto;
-  max-width: 200px;
+  max-width: 320px;
   object-fit: cover;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 25px;
   background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
 }
 
 .buttons{
+
+  padding-top: 10px;
   display: flex;
-gap: 10px;
+gap: 20px;
   justify-content: center;
+  z-index: 2;
+
 
 }
 
@@ -322,11 +363,11 @@ gap: 10px;
 .visitprojectbutton2, 
 .visitprojectbutton3, 
 .githubbutton {
-  width: 75px;
+  width: 100px;
   margin-top: 5px;
-  padding: 5px;
+  padding: 10px;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 25px;
   cursor: pointer;
   font-size: 10px;
   font-weight: 500;
@@ -378,7 +419,7 @@ margin-bottom: 10rem;
   display: flex;
   width: 350px;
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 30px;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   cursor: pointer;
@@ -454,12 +495,13 @@ margin-bottom: 10rem;
 
 /* FOOTER PAGE */
 footer {
-  height: 26vh;
+  height: 27vh;
   font-family: "Poppins", sans-serif;  
   margin-bottom: 10rem;
 
 }
 .footertext{
+  margin-top: 20px;
   font-size: 15px;
   font-weight: 300;
   text-align: center;
