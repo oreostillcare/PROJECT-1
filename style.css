@@ -18,6 +18,8 @@ html{
   scroll-behavior: smooth;
 }
 /*  homepage */
+
+
 .navigation_links{
 
   list-style-type: none;
@@ -36,7 +38,10 @@ html{
   scroll-behavior: smooth;
   display: flex;
   align-items: center;            /* are ang inibo center the items horizontally */
+
 }
+
+
 
 .navigation_links li a:hover{
   color:gray;
@@ -85,7 +90,7 @@ li a{
   height: 325px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 var(--shadow-color);
   
 
 }
@@ -543,7 +548,7 @@ footer {
 }
 
 #theme-switch svg{
-     fill: rgb(255, 255, 255);     /* papaltan pag may kulay na   */
+     fill: rgb(255, 255, 255);     
      
 }
 
@@ -566,6 +571,7 @@ footer {
   --box-color:rgb(255, 255, 255);
   --overlay-color: rgba(128, 128, 128, 0.7);
   --third-color: gray;
+  --shadow-color: rgba(0,0,0,0.2);
 }
 
   .darkmode{
@@ -575,6 +581,6 @@ footer {
   --box-color: gray;
   --overlay-color: rgba(32,32,32,0.7);
   --third-color: rgb(255, 255, 255);
-
+  --shadow-color: rgba(128, 128, 128, 0.7);
   }
 
