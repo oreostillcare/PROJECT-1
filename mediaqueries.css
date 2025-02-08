@@ -1,8 +1,25 @@
-@media screen and (max-width: 1200px){
-    #desktop-nav{
-    display: none;
-}
-#hamburger-nav {
-    display: flex;
-}
+@media screen  and (max-width: 1400px) {
+    .skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        max-width: 800px;
+        margin: auto;
+        padding-top: 0;
+    }
+    
+    .projects{
+        display: flex;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+      
+    }
+
+    .project1, .project2, .project3 {
+        width: 90%;
+        margin: 0 auto;
+    }
 }

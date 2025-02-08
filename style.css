@@ -18,7 +18,9 @@ html{
 }
 /*  homepage */
 
-
+.navigation{
+  align-items: center;
+}
 .navigation_links{
 
   list-style-type: none;
@@ -137,6 +139,8 @@ li a{
 .menu-links.open{
   max-height: 300px;
 }
+
+
 .hamburger-icon.open span:first-child{
   transform: rotate(45deg) translate(10px, 5px);
 
@@ -170,7 +174,7 @@ li a{
   border-radius: 50%;
   object-fit: cover;
   box-shadow: 0 4px 8px 0 var(--shadow-color);
-  
+max-width: 100%;  
 
 }
 
@@ -281,6 +285,7 @@ li a{
   margin-left: 10rem;
   margin-right: 10rem;
   margin-top: 5rem;
+flex-wrap: wrap;
   
 }
 
@@ -398,6 +403,7 @@ margin: 0 30px;
   flex-direction: column;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: transform 0.3s ease-in-out;
+width: 100%;
 
 }
 .projectbox1:hover, .projectbox2:hover, .projectbox3:hover {

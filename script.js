@@ -39,3 +39,11 @@ function toggleMenu() {
     menu.classList.toggle("open");
     hamburger.classList.toggle("open");
 }
+
+// Ensure the hamburger menu is hidden initially
+document.addEventListener("DOMContentLoaded", function() {
+    var menu = document.querySelector(".menu-links");
+    menu.classList.remove("open");
+    var hamburger = document.querySelector(".hamburger-icon");
+    hamburger.classList.remove("open");
+});
