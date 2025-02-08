@@ -23,5 +23,38 @@
         margin: 0 auto;
     }
 
-   
+}
+
+@media screen and (max-width: 1199px) {
+    .navigation_links {
+        display: none; 
+    }
+
+    #hamburger-nav {
+        display: flex; 
+        justify-content: center;
+        margin: 0
+        ;
+    }
+
+    .theme-switch-hamburger {
+        display: block !important; 
+       text-align: center;
+       margin: 0px;
+    }
+
+    .navigation_links .theme-switch {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .theme-switch-hamburger {
+        display: none; 
+    }
+
+    .navigation_links .theme-switch {
+        display: inline-block;
+    }
 }
