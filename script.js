@@ -12,7 +12,7 @@ visit_button_1.onclick = function() {
 }
 
 visit_button_2.onclick = function() {
-    window.open('https://pornhub.com');
+    window.open('');
 }
 
 visit_button_3.onclick = function() {
@@ -33,3 +33,9 @@ github_button_3.onclick = function() {
 }
 
 
+function toggleMenu() {
+    var menu = document.querySelector(".menu-links");
+    var hamburger = document.querySelector(".hamburger-icon");
+    menu.classList.toggle("open");
+    hamburger.classList.toggle("open");
+}
