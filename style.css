@@ -214,6 +214,7 @@ html{
 
 /* About Me*/
 
+
 .aboutme{
   display: flex;
   flex-direction: column;
@@ -221,7 +222,8 @@ html{
   margin-top: 12rem;
   margin-bottom: 10rem;
   padding-top: 10rem;
-  color:var(--primary-color)
+  color:var(--primary-color);
+
 }
 .aboutmetext1{
   font-family: "Poppins", sans-serif;
@@ -334,7 +336,7 @@ margin: 0 30px;
   font-size: 15px;
   display: inline-block;
   margin-left: 12px;
-  
+  font-weight: 500;  
 }
 
 /* Projects*/
