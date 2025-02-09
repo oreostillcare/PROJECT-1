@@ -178,12 +178,13 @@
     padding-bottom: 1rem;
    }
 }
-
+@media screen and (ma) {
+    
+}
 @media screen and (max-width: 767px){
     .nav-wrapper {
         display: flex;
         align-items: center;
-      
         flex-direction: row-reverse;
        
     }
