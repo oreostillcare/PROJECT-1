@@ -24,7 +24,7 @@
     }
 
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
     .navigation_links {
         display: none; 
     }
@@ -66,10 +66,7 @@
         margin-right: auto;
         margin-top: 10rem;
         margin-bottom: 10rem;
-
-
-
-
+    }
 }
 
 
