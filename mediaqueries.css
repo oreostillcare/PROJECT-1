@@ -24,37 +24,57 @@
     }
 
 }
-
 @media screen and (max-width: 1199px) {
     .navigation_links {
         display: none; 
     }
 
-    #hamburger-nav {
-        display: flex; 
-        justify-content: center;
-        margin: 0
-        ;
-    }
-
     .theme-switch-hamburger {
         display: block !important; 
-       text-align: center;
-       margin: 0px;
     }
+
+    .nav-wrapper {
+        display: flex;
+        align-items: center;
+      gap: 16rem;
+        flex-direction: row-reverse;
+       
+    }
+
+    #hamburger-nav, .theme-switch-hamburger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+        margin-left: 12rem;
+        margin-right: 12rem;
+        margin-bottom: 3rem;
+    }
+
+   
 
     .navigation_links .theme-switch {
         display: none;
     }
+
+    .homepage{
+        margin-top: 3.5rem;
+    }
+
+    .aboutme{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
+
+
+
+
 }
 
 
 @media screen and (min-width: 1200px) {
     .theme-switch-hamburger {
         display: none; 
-    }
-
-    .navigation_links .theme-switch {
-        display: inline-block;
     }
 }

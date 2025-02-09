@@ -161,6 +161,11 @@ html{
   transform: rotate(-45deg) translate(10px, -5px);
 }
 
+
+/* HOMEPAGE */
+
+
+
 .profilepicture {
   width: 325px;
   height: 325px;
@@ -613,7 +618,8 @@ footer {
 
 /* DARK MODE */
 
-#theme-switch {
+
+#theme-switch  {
   height: 40px;
   width: 40px;
   padding: 0;
@@ -624,7 +630,7 @@ footer {
   justify-items: center;
 }
 
-#theme-switch svg{
+#theme-switch svg   {
      fill: rgb(255, 255, 255);     
      
 }
