@@ -1,4 +1,4 @@
-nlet darkmode = localStorage.getItem('darkmode');
+uunlet darkmode = localStorage.getItem('darkmode');
 var themeSwitches = document.querySelectorAll("#theme-switch, .theme-switch-hamburger");
 
 var enableDarkMode = function() {
